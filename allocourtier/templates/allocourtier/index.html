@@ -1,0 +1,20 @@
+{% extends "../default.html" %}
+
+{% block content %}
+
+<h1>Allo Courtier</h1>
+<p>Rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue eget arcu dictum varius duis at consectetur lorem donec massa sapien, faucibus. Tempus quam pellentesque nec nam aliquam sem et tortor consequat id porta nibh venenatis cras sed felis eget velit aliquet sagittis id consectetur purus ut faucibus. Libero justo, laoreet sit amet cursus sit amet, dictum sit amet justo donec enim. Montes, nascetur ridiculus mus mauris vitae ultricies leo integer malesuada nunc vel risus commodo viverra maecenas accumsan, lacus vel? Magna eget est lorem ipsum dolor sit amet, consectetur adipiscing elit pellentes cursus in hac habitasse platea dictumst quisque sagittis, purus sit amg elit? Id interdum velit laoreet id donec ultrices tincidunt arcu, non </p>
+
+<h1>Notre activité</h1>
+
+<div class="activities-container">
+  {% for activity in activities %}
+  <div class="activity-container">
+    <h2>{{activity.name}}</h2>
+    <p>{{activity.description}}</p>
+  </div>
+  {% endfor %}
+</div>
+
+
+{% endblock %}

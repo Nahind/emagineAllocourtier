@@ -1,0 +1,34 @@
+{% load staticfiles %}
+{% load sass_tags %}
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>AlloCourtier</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="">
+
+
+    <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% sass_src '_sass/betac.scss' %}">
+
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" href="{% static 'css/font-awesome/css/font-awesome.min.css' %}">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+
+
+    <!-- JQuery -->
+    <script src="{% static '/js/jquery-3.1.1.min.js' %}"></script>
+    <!-- Bootstrap JS -->
+    <script src="{% static '/js/bootstrap.js' %}"></script>
+    <!-- Betac's JS -->
+    <script src="{% static '/js/betac.js' %}"></script>
+
+</head>

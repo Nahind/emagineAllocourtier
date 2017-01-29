@@ -1,0 +1,102 @@
+body {
+    overflow-x: hidden;
+    font-family: Raleway, "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#page-main-container {
+    margin-top: 120px;
+}
+
+
+p {
+    font-size: 1.15em;
+    line-height: 1.75;    
+}
+
+.fade_large {
+    font-size: 1.2em;
+    color: $fade_font_color;
+}
+
+
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+    outline: 0;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 2.3em;
+}
+
+h2 {
+    font-size: 1.75em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+h4 {
+    font-size: 1.2em;
+}
+
+form input, form textarea {
+    margin-bottom: 0.5em;
+}
+
+input, textarea {
+    font-size: 0.8em;
+    font-family: 'proxima-nova-soft', sans-serif;
+    border: 1px solid #ddd;
+    background: #fff;
+    padding: 0.9em;
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+}
+
+button, input {
+    line-height: normal;
+}
+
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0;
+    vertical-align: baseline;
+}
+
+textarea {
+    height: 10.3em;
+}
+
+button:hover, a.button:hover {
+    border-color: #2A735B;
+    color: #2A735B;
+}
+
+button, a.button {
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: 2px solid #359173;
+    color: #359173;
+    background: transparent;
+    line-height: 1em;
+    padding: 0.8em 1.1em;
+    transition: all 0.3s ease-in-out;
+}

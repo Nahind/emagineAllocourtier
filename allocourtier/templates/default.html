@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+
+  {% include "head.html" %}
+
+  <body id="page-top" class="index">
+
+    {% include "header.html" %}
+    <div class="container" id="page-main-container">
+      {% block content %}{% endblock %}
+    </div>
+    {% include "footer.html" %}
+
+  </body>
+</html>

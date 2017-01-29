@@ -1,0 +1,104 @@
+/** NAVBAR **/
+
+.navbar-default {
+    border-color: transparent;
+    background-color: $main_color;    
+    padding: 25px 0;
+
+    .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+        font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+        color: white;
+
+        &:hover,
+        &:focus,
+        &:active,
+        &.active {
+            color: white;
+        }
+    }
+    
+    &.navbar-shrink {
+        padding: 10px 0;
+        transition: 0.3s all;
+    }
+
+    &.navbar-shrink .navbar-brand {
+        font-size: 1.5em;
+    }    
+
+    .navbar-toggle {
+        border: none;        
+    }
+
+    .navbar-toggle .icon-bar {
+        background-color: #fff;
+    }
+    
+    .nav li a {
+        text-transform: uppercase;    
+        font-weight: 400;
+        letter-spacing: 1px;
+        color: #fff;
+    }
+
+    .nav li a:hover,
+    .nav li a:focus {
+        outline: 0;
+        color: white;
+        font-weight: 800;
+    }
+
+    .nav li a.active {
+        background-color: #FFBC4F;
+        font-weight: 800;
+    }
+}    
+
+
+
+/** FOOTER **/
+footer {
+    color: white;    
+    padding: 70px 0;
+    background-color: $main_color;
+    text-align: center;
+    margin-top: 50px;
+
+    ul {
+        padding: 0;
+
+        li {
+            line-height: 2em;
+            list-style: none;
+            opacity: 0.9;
+        }
+    }    
+
+    #site-name-footer {
+        font-size: 3em;
+        text-transform: uppercase;
+        text-transform: none;
+        font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    }
+
+}
+
+footer span.copyright {
+    margin-top: 70px;
+    display: block;
+    text-transform: uppercase;
+    text-transform: none;
+    line-height: 40px;
+}
+
+.anchor {
+    display: block;
+    height: 85px; 
+    margin-top: -85px;
+    visibility: hidden;
+}
+    
